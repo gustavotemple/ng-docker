@@ -46,7 +46,7 @@ To:
 "start": "ng serve --host 0.0.0.0",
 ```
 
-7. Run `docker-compose up -d`;
+7. Run `docker-compose up --build -d`;
 
 8. Run `docker logs ng-web -f` and see the magic happening.
 
